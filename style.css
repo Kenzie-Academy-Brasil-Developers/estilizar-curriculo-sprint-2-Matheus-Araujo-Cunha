@@ -1,27 +1,179 @@
+/*
+CABEÇA DO CURRICULO
+*/
+
+#top{
+   background-color: #f3f3f3;
+   font-family: 'Lato', sans-serif;
+   
+}
+
+#headshot {
+	float: left;	
+}
+
+
+
+
+#headshot img{
+	border-radius: 100%;
+	margin-left: 100px;
+	padding-top: 20px;
+	margin-right: 50px;
+}
+
+
+#name{
+	line-height: 20px;
+	margin-right: 100px;
+	margin-top: 10px;
+	float: left;
+	font-family: 'Rokkitt', serif;
+	font-size: 25px;
+}
+
+#name h2{
+	font-weight: 500;
+	font-family: serif;
+	font-family: 'Rokkitt', serif;
+	font-size: 40px;
+}
+
+.mainDetails{
+	margin: 20px 20px 20px 10px;
+	padding: 10px 5px;
+	
+	font-size: 20px;
+}
+
+
+#contactDetails{
+	margin-right: 140px;
+	float: right;
+}
+
+
+#contactDetails ul{
+	list-style: none;
+	padding: 2px 0;
+	font-size: 20px;
+	padding: 20px 20px;
+}
+
+#contactDetails ul li{
+ padding: 2px 0;
+}
+
+#contactDetails ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#contactDetails ul li i{
+     margin-right: 5px;
+}
+
+.cabecalho{
+	width: 85%;
+	border: 2px solid;
+	border-color: #cf8a05;
+	border-radius: 5px;
+	
+}
+
 .clear {
 	clear: both;
 }
 
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
-}
 
-#name {
-	float: left;
-}
+/*
+CONTEUDO DO CURRICULO
+*/
 
-#contactDetails {
-	float: right;
-}
+
+/*
+PERSONAL PROFILE
+*/
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+    text-align: right;
+	padding: 0 20px 0 0;
+	margin-left: 20px;
 }
+
+.sectionTitle h1{
+	font-weight: 200;
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	color: #cf8a05;
+	font-style: italic;
+}
+
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 60%;
+	margin-right: 100px;
+	margin-left: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #444444;
+	margin-top: 30px;
+	
+}
+
+
+.corpo{
+	width: 75%;
+	border-color: #dedede;
+}
+
+
+
+/*
+WORK EXPERIENCE
+*/
+
+
+
+.sectionTitle2{
+	background-color: #444444;
+	color: #cf8a05;
+}
+	
+.subDetails {
+	margin: 0 0 1px 0;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+
+.sectionContent h2{
+	margin: 0px 0 0px 0;
+	color:#181818;
+	font-family: 'Rokkitt', serif;
+	font-weight: 400;
+	font-size: 33px;
+}
+
+
+.sectionContent p{
+	margin: 0px 0 15px 0;
+	font-size: 19px;
+}
+
+
+/*
+KEY SKILLS
+*/
+
+.keySkills{
+	list-style: none;
+	columns: 180px;
+	margin-top: 0px;
+	padding-left: 0px;
 }
